@@ -237,6 +237,11 @@ nav ul li a{
 
 }
 
+.boton:hover{
+
+	color:#ccc;
+}
+
 
 
 /* Conozca */
@@ -275,18 +280,20 @@ nav ul li a{
 
 	color:#b91e1f;
 	font-size: 2.3em;
+	margin-bottom: 1em;
 
 }
 
 .itemcarac img{
 
-	margin-right: 0.5em;
+	
 }
 
 .itemcarac p{
 
 	font-weight: 300!important;
 	text-align: left;
+
 }
 
 .caracteristicas a{
@@ -306,5 +313,172 @@ nav ul li a{
 
 
 #clientes{
-	background-color: #232323;
+	background-color: #fafafa;
+}
+
+#clientes h2{
+
+	font-family: bedrock;
+	font-size: 8em;
+	
+}
+
+#clientes p{
+	
+	color:#232323;
+	font-weight: 400;
+	margin-top: 1.7em;
+    padding-left: 2em;
+}
+
+.owl-carousel2{
+
+	text-align: center;
+	margin-top: 6em;
+}
+
+
+.owl-carousel2 h3{
+
+	color:#232323;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.owl-carousel2 h4{
+
+	font-size: 1.5em;
+	text-align: left!important;
+	margin: -10px 0 20px 1em;
+}
+
+.owl-carousel2 h4 a{
+
+	color:#b91e1f;
+	font-size: 0.9em!important;
+	text-align: left!important;
+}
+
+.owl-prev {
+    color: #b91e1f;
+    font-size: 5em;
+    left: -10%;
+    position: absolute;
+    top: 35%;
+}
+
+
+.owl-next {
+    color: #b91e1f;
+    font-size: 5em;
+    left: 105%;
+    position: absolute;
+    top: 35%;
+}
+
+
+.carouseltext p{
+	
+	font-weight: 400!important;
+	margin-top: 2em;
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+.itemrejilla{
+
+	border:1px solid #ccc;
+	padding: 4em;
+	text-align: center;
+}
+
+
+/* Footer */
+
+footer{
+
+	background-color: #000;
+}
+
+footer h2{
+
+	color:#fff;
+	font-family: bedrock;
+	font-size: 8em;
+	
+}
+
+.info{
+
+	margin-top: 3em;
+}
+
+
+.info h3{
+
+	color:#fff;
+	font-size: 2em;
+}
+
+.info a{
+
+	color: #b91e1f;
+}
+
+.derechacontact p{
+
+	margin-top: 2em;
+}
+
+#mensaje{
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+form{
+
+	margin-top: 3em;
+}
+
+form input{
+
+	margin-top: 2em;
+	text-align: center;
+}
+
+form a{
+
+	background-color: #b91e1f;
+	border-radius: 5px;
+	color:#fff;
+	font-size: 1.2em;
+	padding: 0.5em 2em;
+	margin-top: 3em;
+	text-align: center;
+	margin-left: 36%;
+	
+}
+
+
+/* Post footer */
+
+.postfooter{
+
+	padding: 0.5em 0;
+}
+
+.postfooter h4{
+
+	font-weight: 700;
+	font-style: italic;
+}
+
+.postfooter ul li{
+
+	display: inline-block;
+	list-style: none;
+	margin-right: 1em;
+	text-align: right;
 }
