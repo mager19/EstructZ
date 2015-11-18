@@ -670,3 +670,53 @@ nav{
 
 
 }
+
+
+
+/*  480px */
+@media screen and (max-width: 480px) {
+
+
+.top img{
+
+	margin-left: 0;
+}
+
+nav {
+    text-align: left;
+}
+
+nav ul li {
+    font-size: 1.2em;
+   
+}
+
+#slide h2 {
+   
+   margin-top: 20px;
+ }
+
+#conozca p {
+  
+   padding-left:0;
+}
+
+#gotop a{
+
+	left:88%;
+}
+
+
+.owl-prev, .owl-next {
+   display: none!important;
+}
+
+
+#mensaje {
+    
+    width: 71%;
+}
+
+
+
+}
