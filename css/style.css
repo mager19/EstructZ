@@ -19,8 +19,6 @@
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
 /* Animate and more*/
-@import url("../css/jquery.navgoco.css");
-@import url("../css/demo.css");
 @import url("../css/animate.css");
 
 
@@ -254,6 +252,8 @@ nav ul li a{
 	
 }
 
+
+
 #conozca p{
 	
 	color:#232323;
@@ -275,6 +275,7 @@ nav ul li a{
 
 	margin-top: 4em;
 }
+
 
 .itemcarac h3{
 
@@ -392,6 +393,12 @@ nav ul li a{
 	text-align: center;
 }
 
+.itemrejilla:hover{
+
+	background-color: #fff;
+	cursor: pointer;
+}
+
 
 /* Footer */
 
@@ -481,4 +488,185 @@ form a{
 	list-style: none;
 	margin-right: 1em;
 	text-align: right;
+}
+
+
+/*go-top*/
+
+#gotop a{
+
+	
+	color:#b91e1f;
+	left:94%;
+	opacity: 0.4;
+	position: fixed;
+	top: 93.5%;
+
+	-webkit-transition: 0.2s linear all;
+	-o-transition: 0.2s linear all;
+	transition: 0.2s linear all;
+}
+
+#gotop a:hover{
+
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+
+/*************************** media queries ***************************/
+
+
+/*  1280 */
+@media screen and (max-width: 1280px) {
+
+#slide{
+
+	height: 77vh;
+	
+}
+
+}
+
+/*  1024px */
+@media screen and (max-width: 1024px) {
+
+nav ul li {
+  
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+
+#slide{
+
+	height: 65vh;
+	
+}
+
+
+#slide h2 {
+   
+    font-size: 3em;
+   
+}
+
+#conozca h2, #clientes h2, footer h2 {
+
+    font-size: 7em;
+}
+
+#mensaje {
+    
+    width: 107%;
+}
+
+.postfooter ul li {
+ 
+    margin-right: 0.8em;
+ 
+}
+
+}
+
+
+
+
+/*  768px */
+@media screen and (max-width: 768px) {
+
+
+.top img{
+
+	margin-left: 15%;
+}
+
+nav{
+
+	text-align: center;
+}
+
+#slide{
+
+	height:50vh;
+	
+}
+
+.portatil{
+
+	display: none;
+}
+
+.boton {
+    margin-top: 0;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+
+.promocional h2{
+
+	display: none;	
+}
+
+#conozca h2, #clientes h2, footer h2{
+
+	font-size: 5em;
+    line-height: 1em;
+    margin-bottom: 1em;
+	text-align: center;
+}
+
+
+#conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(6){
+
+	margin-bottom: 3em;
+}
+
+.owl-carousel .owl-item img {
+   
+    margin-left: 40%;
+    width: 20%;
+}
+
+
+.owl-carousel2 h4{
+
+	text-align: center!important
+}
+
+.info{
+
+	text-align: center;
+}
+
+.derechacontact p{
+
+	display: none;
+}
+
+
+.derechacontact{
+
+	text-align: center;
+}
+
+#mensaje {
+    
+    width: 40%;
+}
+
+
+.derechacontact a{
+
+	margin-left: 20px;
+}
+
+.postfooter{
+
+	text-align: center;
+
+}
+
+
+
 }
