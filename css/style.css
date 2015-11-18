@@ -722,6 +722,16 @@ nav ul li {
 }
 
 
+/*  414px */
+@media screen and (max-width: 414px) {
+
+.top img {
+    margin-left: 0%!important;
+}
+
+}
+
+
 
 
 /*  320px */
