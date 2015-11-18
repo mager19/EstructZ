@@ -724,13 +724,71 @@ nav ul li {
 
 
 
-/*  414px */
-@media screen and (max-width: 414px) {
+/*  320px */
+@media screen and (max-width: 320px) {
 
 nav ul li {
-	
+    font-size: 1.2em;
+    margin-left: 0px;
+}
+
+header{
+
+	display: none;
+}
+
+#slide h2 {
+
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+#slide h3 {
+   
+    font-size: 1.8em;
+    margin-top: 10px;
+
+}
+
+#slide{
+
+	height:60vh;
+}
+
+#promocional h3 {
+
     font-size: 1em;
 
 }
+
+#promocional a {
+
+    font-size: 1em;
+
+}
+
+
+#conozca p, #clientes p{
+
+	font-size: 1em;
+    text-align: center;
+}
+
+.itemcarac h3 {
+   
+    text-align: center;
+    margin-left: -1.5em;
+}
+
+
+#conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(1) > p, #conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(2) > p, #conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(3) > p
+, #conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(4) > p, #conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(5) > p
+,#conozca > div > div > div > div.col-md-12.caracteristicas > div:nth-child(6), #conozca > div > div > div > div.col-md-12.caracteristicas > div.col-md-12.boton > a,
+#clientes > div > div > div.col-md-offset-2.col-md-8 > div.col-md-12.carouseltext > p{
+
+	display: none;
+}
+
+
 
 }
