@@ -720,3 +720,17 @@ nav ul li {
 
 
 }
+
+
+
+
+/*  414px */
+@media screen and (max-width: 414px) {
+
+nav ul li {
+	
+    font-size: 1em;
+
+}
+
+}
