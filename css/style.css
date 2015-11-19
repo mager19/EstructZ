@@ -683,6 +683,91 @@ header{
 	display: none;
 }
 
+#slide{
+
+	height:55vh;
+	
+}
+
+
+.slide h2{
+
+	font-size: 2.5em!important;
+	margin-top: 10px!important;
+}
+
+#slide h3 {
+  
+    font-size: 1.8em;
+    
+}
+
+#promocional{
+
+	display: none;
+}
+
+#promocional h3 {
+   
+    font-size: 1em;
+   
+}
+
+#promocional a {
+
+    font-size: 1em;
+    
+}
+
+
+#conozca h2, #clientes h2, footer h2{
+
+	font-size: 3em;
+   
+}
+
+
+.itemcarac {
+    margin-top: 4em!important;
+}
+
+.itemcarac p{
+
+	display: none;
+}
+
+.itemcarac h3 {
+   
+    margin-left: -1em;
+}
+
+
+.caracteristicas a {
+  
+    padding: 0.5em 0.5em;
+  
+}
+
+
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next, .owl-carousel .owl-controls .owl-dot {
+
+    display: none;
+    
+}
+
+.owl-prev {
+   display: none!important;
+}
+
+#mensaje {
+    width: 92%;
+}
+
+#clientes > div > div > div.col-md-offset-2.col-md-8 > div.col-md-12.carouseltext > p{
+
+	display: none;
+}
+
 
 }
 
@@ -696,6 +781,31 @@ header{
 
 	display: none;
 }
+
+#slide h2 {
+    font-size: 1.8em!important;
+}
+
+
+#slide h3 {
+  
+    font-size: 1.5em;
+    
+}
+
+#promocional h3 {
+   
+    font-size: 1em;
+   
+}
+
+.caracteristicas a {
+  
+    padding: 0.5em 0.2em;
+    font-size: 0.8em;
+  
+}
+
 
 
 }
