@@ -26,13 +26,13 @@
 
 @font-face {
     font-family:bedrock;
-    src: url(../fonts/BEDROCKN.ttf);
+    src: url(../fonts/BEDROCKN.ttf) format('truetype'), url(../fonts/BEDROCKN.woff) format('woff'), url(../fonts/BEDROCKN.svg) format('svg'), url(../fonts/BEDROCKN.eot);
 }
 
 
 @font-face {
     font-family:braga;
-    src: url(../fonts/braga.ttf);
+    src: url(../fonts/braga.ttf) format('truetype'), url(../fonts/BEDROCKN.woff) format('woff'), url(../fonts/BEDROCKN.svg) format('svg'), url(../fonts/BEDROCKN.eot);;
 }
 
 body{
