@@ -32,7 +32,7 @@
 
 @font-face {
     font-family:braga;
-    src: url(../fonts/braga.ttf) format('truetype'), url(../fonts/BEDROCKN.woff) format('woff'), url(../fonts/BEDROCKN.svg) format('svg'), url(../fonts/BEDROCKN.eot);;
+    src: url(../fonts/braga.ttf) format('truetype'), url(../fonts/braga.woff) format('woff'), url(../fonts/braga.svg) format('svg'), url(../fonts/braga.eot);
 }
 
 body{
