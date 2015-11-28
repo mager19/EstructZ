@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="css/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="css/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="css/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="css/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="css/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+</head>
+<body >
+
+<!-- <div id="hidden" style="display:none;">
+    Hi this is hidden
+</div> -->
+<p>Open iframe on page load</p>
+<a class="fancybox" href="http://jsfiddle.net">this link open external page on an iframe</a>
+<a id="aLink" href="http://www.estructz.com" >Link</a></body>
+	
+<ul class="list">
+	<li>
+		<a class="various fancybox.ajax" href="/demo/ajax.php">Ajax</a>
+	</li>
+	<li>
+		<a class="various" data-fancybox-type="iframe" href="/demo/iframe.html">Iframe</a>
+	</li>
+	<li>
+		<a class="various" href="#inline">Inline</a>
+	</li>
+	<li>
+		<a class="various" href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf">SWF</a>
+	</li>
+
+	<a class="various" rel="group" href="#img"><img id="img" src="http://placehold.it/550x336" alt="" /></a>
+
+</ul>
+
+<div id="inline">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum sunt, sed velit ipsa molestias, eligendi impedit laudantium ducimus at repellat, vitae placeat! Voluptatibus eveniet reprehenderit maxime. Vel fugiat, accusamus.
+</div>
+
+
+<a id="single_1" href="http://farm1.staticflickr.com/291/18653638823_a86b58523c_b.jpg" title="Lupines (Kiddi Einars)">
+	<img src="http://farm1.staticflickr.com/291/18653638823_a86b58523c_m.jpg" alt="" />
+</a>
+
+<a class="iframe" href="http://www.example">This goes to iframe</a>
+
+<a class="various" href="http://google.com">This goes to iframe</a>
+
+<a id="single_1" href="http://www.google.com">This goes to iframe</a>
+
+<a class="ifancybox" href="http://estructz.com">Esto mostrará un iframe de fancybox, incluso puedes poner una imagen aqui dentro</a>
+
+
+<script src="js/jquery.fancybox.js"></script>
+	<script src="js/bootstrap-lightbox.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script>
+$(document).ready(function() {
+
+	$(".fancybox").fancybox({
+        'width'             : '75%',
+             'height'            : '75%',
+             'autoScale'         : false,
+             'transitionIn'      : 'none',
+             'transitionOut'     : 'none',
+             'type'              : 'iframe',
+             'showCloseButton'   : true
+    }).trigger("click")
+
+// 	$("#aLink").fancybox({
+//             'width'             : '75%',
+//             'height'            : '75%',
+//             'autoScale'         : false,
+//             'transitionIn'      : 'none',
+//             'transitionOut'     : 'none',
+//             'type'              : 'iframe'
+//         });
+// 	 $.fancybox.open([
+//     {
+//         href : 'http://fancyapps.com/',
+//         title : '1st title'
+//     },
+//     {
+//         href : 'http://fancyapps.com/fancybox/demo/2_b.jpg',
+//         title : '2nd title'
+//     }    
+// ], {
+//     padding : 0   
+// });
+
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+
+	$("#single_1").fancybox({
+          helpers: {
+              title : {
+                  type : 'inside',
+                   	maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none',
+
+              }
+
+
+          }
+      });
+
+	$('.iframe').fancybox({ 
+        'scrolling'     : 'no',
+        'overlayOpacity': 0.1,
+        'showCloseButton'   : true,
+        'content' : '<div><p>soy un parrafo</p></div>'
+    });
+
+	 $(".ifancybox").fancybox({
+         'width' : '75%',
+         'height' : '75%',
+         'autoScale' : false,
+         'transitionIn' : 'none',
+         'transitionOut' : 'none',
+         'type' : 'iframe'
+     });
+
+
+
+});
+	</script>
+
+</body>
+</html>
